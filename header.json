@@ -1,5 +1,21 @@
 {
 "name" : "OYAKI難易度表 for SP",
 "symbol" : "sp親",
-"data_url" : "https://script.google.com/macros/s/AKfycbzpsbtRsuPDfh4L--mFMYtpPSDx687HYclGj8zeIU5EpUwOPaVH7Cr1pYvYnSPjr5aFMw/exec"
+"data_url" : "https://script.google.com/macros/s/AKfycbzpsbtRsuPDfh4L--mFMYtpPSDx687HYclGj8zeIU5EpUwOPaVH7Cr1pYvYnSPjr5aFMw/exec",
+"course" : [
+[
+{
+"name" : "親機",
+"constraint" : [
+"grade_mirror",
+"gauge_lr2"
+],
+"md5" : [
+"24ce364c5d7ed6805a3b06d741e01c9f",
+"7c34843f660f660e94024817933302e3",
+"0b75a391b90a44bdc1a51b7a702296a8"
+]
+}
+]
+]
 }
