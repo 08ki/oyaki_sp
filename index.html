@@ -58,7 +58,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>曲名</th><th>mochaIR</th><th>アーティスト</th>><th>差分</th><th>コメント</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>Level</th><th>曲名</th><th>mochaIR</th><th>MinIR</th><th>アーティスト</th>><th>差分</th><th>コメント</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -95,6 +95,11 @@
                     $("<td width='7%'>" +
                         "<a href='https://mocha-repository.info/song.php?sha256=" + info[i]
                         .sha256 + "' target='_blank'>" + 'mocha' + "</a></td>").appendTo(str);
+                    
+                    // MinIR
+                    $("<td width='7%'>" +
+                        "<a href='https://www.gaftalk.com/minir/#/viewer/song/" + info[i]
+                        .sha256 + "/0' target='_blank'>" + 'Min' + "</a></td>").appendTo(str);
                     
                     // アーティスト
                     var astr = "";
