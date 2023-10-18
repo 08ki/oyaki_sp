@@ -102,7 +102,7 @@
                         .sha256 + "/0' target='_blank'>" + 'Min' + "</a></td>").appendTo(str);
                     
                     // CinnamonIR
-                    $("<td width='9%'>" +
+                    $("<td width='8%'>" +
                         "<a href='https://ir.cinnamon.link/charts/" + info[i]
                         .sha256 + "/0' target='_blank'>" + 'Cinnamon' + "</a></td>").appendTo(str);
                     
@@ -147,7 +147,7 @@
                     }
 
                     // Comment
-                    $("<td width='23%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='24%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
@@ -155,7 +155,7 @@
                 $("</tbody>").appendTo(obj);
 
                 if (obj_sep != null) {
-                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='7'>" + "<b>" + mark + x +
+                    obj_sep.html("<td class='table-dark' style='text-align:center' colspan='8'>" + "<b>" + mark + x +
                         " (" + count + "譜面)</b></td>");
                 }
             }
